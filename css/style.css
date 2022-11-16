@@ -11,6 +11,9 @@ body {
   a:link {
     color: rgb(14, 31, 65);
   }
+  a:unvisted {
+    color: rgb(14, 31, 65);
+  }
 
   a:visted {
     color: rgb(32,78,51);
