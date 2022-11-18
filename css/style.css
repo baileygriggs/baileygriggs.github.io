@@ -1,7 +1,7 @@
-@import url'https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Merriweather&display=swap');
 
 body {
-  font-family: "Alfa Slab One", "Merriweather", "Georgia", sans-serif;
+  font-family: "Merriweather", "Georgia", sans-serif;
   font-size: 16px;
   color: #222;
   line-height: 2;
@@ -15,8 +15,8 @@ a:link {
   color: rgb(75,0,130);
 }
 
-a:visted {
-  color: rgb(160,32,240);
+a:visited {
+  color: rgb(145,0,230);
 }
 
 a:hover {
@@ -28,14 +28,14 @@ a:active {
 }
 
 h2 {
-  font-family: "Alfa Slab One" sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
 h3 {
-  font-family: "Alfa Slab One" sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -43,13 +43,13 @@ h3 {
 }
 
 h4 {
-  font-family: "Alfa Slab One" sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 15px;
   text-decoration-line: underline;
 }
 
 p {
-  font-family: "Merriweather" sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -62,11 +62,15 @@ table, th, td {
 
 ul {
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.5;
+}
+
+dl {
+  line-height: 1.5;
 }
 
 header {
-  font-family: "Alfa Slab One", sans-serif;
+  font-family: "Aboreto", sans-serif;
   font-size: 25px;
   margin-bottom: 0px;
   text-align: center;
@@ -91,7 +95,7 @@ main {
   grid-gap: 10px;
   max-width: 960px;
   width: auto;
-  margin: 5 auto;
+  margin: 5px;
   overflow: auto;
 }
 
@@ -118,7 +122,7 @@ figcaption, aside, footer {
 
 #flag {
     float: right;
-    margin: 30px 10px 10px 20px;
+    margin: 30px 10px 5px 20px;
     overflow: auto;
     caption-side: bottom;
   }
@@ -131,8 +135,7 @@ figcaption, aside, footer {
 
 #introduction p {
   text-indent: 25px;
-  margin-right: 25px;
-  line-height: 2.2;
+  margin-right: 35px;
   margin-bottom: 20px;
 }
 
@@ -163,6 +166,7 @@ figcaption, aside, footer {
   margin-left: 0px;
   margin-right: 200px;
   margin-bottom: 50px;
+  overflow: auto;
 }
 
 .alt-row-blue {
