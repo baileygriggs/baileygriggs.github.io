@@ -1,1 +1,11 @@
-@import
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Merriweather&family=Raleway:wght@500&display=swap');
+
+body {
+  font-family: "Raleway", "Georgia", sans-serif;
+  font-size: 16px;
+  color: #222;
+  line-height: 2;
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: #eee;
+}
