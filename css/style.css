@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Merriweather&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@500&display=swap');
 
 body {
   font-family: "Raleway", "Georgia", sans-serif;
@@ -7,5 +7,101 @@ body {
   line-height: 2;
   max-width: 960px;
   margin: 20px auto;
-  background-color: #eee;
+  background-color: rgb(193,196,175);
 }
+
+a,
+a:link {
+  color: rgb(80, 88, 48);
+}
+
+a:visited {
+  color: rgb(128, 60, 5);
+}
+
+a:hover {
+  color: rgb(213, 187, 158);
+}
+
+a:active {
+  color: rgb(182, 52, 28);
+}
+
+h2 {
+  font-family: "Raleway", "Georgia", sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-family: "Raleway", "Georgia", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: "Georgia", sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+ul {
+  text-align: left;
+  line-height: 1.5;
+}
+
+header {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+nav {
+    background-color: rgb(147,184,177);
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 960px;
+    min-width: 800px;
+    position: sticky;
+    top: 0px;
+    border-top: 10px solid rgb(147,184,177);
+    align-content: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    max-width: 960px;
+    width: auto;
+    margin: 5px;
+    overflow: auto;
+  }
+
+  #navlist {
+      margin: 0;
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      overflow: auto;
+    }
+
+#introduction {
+    grid-row: 1;
+    grid-column: 1;
+    overflow: auto;
+  }
+
+  #introduction p {
+    text-indent: 25px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
