@@ -8,6 +8,10 @@ body {
   max-width: 960px;
   margin: 20px auto;
   background-color: rgb(193,196,175);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  overflow: auto;
 }
 
 a,
@@ -49,21 +53,29 @@ p {
 }
 
 header {
+  background-color: rgb(193,196,175);
   font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
   margin-bottom: 0px;
-  text-align: center;
+  text-align: left;
+  width: 700px;
+  overflow: auto;
+  position: sticky;
+  top: 0px;
+  grid-column: 1/3;
+  grid-row: 1;
 }
 
 nav {
     background-color: rgb(55,79,81);
     padding: 10px;
     margin-bottom: 10px;
-    max-width: 960px;
-    min-width: 800px;
+    width: 250px;
     position: sticky;
     top: 0px;
     align-content: center;
+    grid-column: 3/4;
+    grid-row: 1;
   }
 
   main {
@@ -71,28 +83,42 @@ nav {
     width: auto;
     margin: 5px;
     overflow: auto;
-
+    grid-column: 1/4;
+    grid-row: 2;
   }
 
-  #navlist {
-      margin: 0;
-      list-style-type: none;
-      padding-left: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      overflow: auto;
+#name {
+  font-size: 60px;
+}
+
+#title {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+#navlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    overflow: auto;
     }
 
-
 #headshot {
+  position: relative;
+  bottom: 45px;
   float: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  float: right;
-  margin-left: 5px;
+}
+
+#introduction p {
+  text-indent: 20px;
+}
+
+#client-photography {
+  max-width: 560px;
+  overflow: auto;
 }
 
 #aw-5 {
