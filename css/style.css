@@ -12,19 +12,19 @@ body {
 
 a,
 a:link {
-  color: rgb(80, 88, 48);
+  color: rgb(193,196,175);
 }
 
 a:visited {
-  color: rgb(128, 60, 5);
+  color: rgb(201,143,57);
 }
 
 a:hover {
-  color: rgb(213, 187, 158);
+  color: rgb(147,184,177);
 }
 
 a:active {
-  color: rgb(182, 52, 28);
+  color: rgb(104,114,55);
 }
 
 h2 {
@@ -61,14 +61,13 @@ header {
 }
 
 nav {
-    background-color: rgb(147,184,177);
+    background-color: rgb(55,79,81);
     padding: 10px;
     margin-bottom: 10px;
     max-width: 960px;
     min-width: 800px;
     position: sticky;
     top: 0px;
-    border-top: 10px solid rgb(147,184,177);
     align-content: center;
   }
 
