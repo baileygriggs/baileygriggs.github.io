@@ -48,11 +48,6 @@ p {
   margin-bottom: 5px;
 }
 
-ul {
-  text-align: left;
-  line-height: 1.5;
-}
-
 header {
   font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
@@ -76,6 +71,7 @@ nav {
     width: auto;
     margin: 5px;
     overflow: auto;
+
   }
 
   #navlist {
@@ -91,7 +87,12 @@ nav {
 
 
 #headshot {
-  display: flex;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right;
+  margin-left: 5px;
 }
 
 #aw-5 {
