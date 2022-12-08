@@ -72,10 +72,6 @@ nav {
   }
 
   main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
     max-width: 960px;
     width: auto;
     margin: 5px;
@@ -93,17 +89,10 @@ nav {
       overflow: auto;
     }
 
-#introduction {
-    grid-row: 1;
-    grid-column: 1;
-    overflow: auto;
-  }
 
-  #introduction p {
-    text-indent: 25px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-  }
+#headshot {
+  display: flex;
+}
 
 #aw-5 {
   float: left;
