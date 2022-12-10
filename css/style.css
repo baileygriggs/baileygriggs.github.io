@@ -305,7 +305,7 @@ figcaption {
 .gallery {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  grid-template-rows: repeat(auto, 5vw);
+  grid-template-rows: repeat(5vw);
   grid-gap: 15px;
 }
 
