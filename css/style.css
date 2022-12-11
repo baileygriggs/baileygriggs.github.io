@@ -150,8 +150,8 @@ footer p {
 }
 
 #chels-gallery {
-  margin-left: 68px;
-  min-width: 900px;
+  margin-left: 70px;
+  min-width: 800px;
   max-width: 960px;
   overflow: visible;
   display: grid;
