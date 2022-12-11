@@ -32,8 +32,8 @@ a:active {
 h2 {
   font-family: "Raleway", "Georgia", sans-serif;
   font-size: 40px;
-  margin-top: 0px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 35px;
   text-align: center;
   padding: 0px;
 }
@@ -41,10 +41,9 @@ h2 {
 h3 {
   font-family: "Raleway", "Georgia", sans-serif;
   font-size: 20px;
-  margin-top: 10px;
   margin-bottom: 5px;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 p {
@@ -151,6 +150,7 @@ footer p {
 }
 
 #chels-gallery {
+  margin-left: 68px;
   min-width: 900px;
   max-width: 960px;
   overflow: visible;
@@ -199,13 +199,6 @@ footer p {
     grid-row-end: 2;
   }
 
-  #aw-2 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 11;
-  }
-
   #aw-3 {
     grid-column-start: 9;
     grid-column-end: 14;
@@ -224,7 +217,7 @@ footer p {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 7;
+    grid-row-end: 6;
   }
 
   #aw-7 {
@@ -251,12 +244,12 @@ footer p {
   #aw-10 {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 8;
-    grid-row-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 10;
   }
 
   #aw-11 {
-    grid-column-start: 4;
+    grid-column-start: 3;
     grid-column-end: 10;
     grid-row-start: 7;
     grid-row-end: 10;
@@ -362,3 +355,16 @@ footer p {
   margin: 0;
   align: center;
 }
+
+
+
+/*VIDEO GALLERY*/
+
+#video-gallery {
+    max-width: 800px;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-left: 40px;
+  }
