@@ -6,7 +6,7 @@ body {
   color: #222;
   line-height: 2;
   max-width: 960px;
-  padding-top: 250px;
+  padding-top: 150px;
   margin: 20px auto;
   background-color: rgb(193,196,175);
   overflow: auto;
@@ -32,10 +32,10 @@ a:active {
 h2 {
   font-family: "Raleway", "Georgia", sans-serif;
   font-size: 40px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 5px;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 h3 {
@@ -58,26 +58,41 @@ header {
   color: rgb(55,79,81);
   background-color: rgb(193,196,175);
   font-family: "Bebas Neue", sans-serif;
+  line-height:1;
+  word-spacing: 2px;
   font-size: 25px;
-  margin-bottom: 20px;
-  padding: 5px;
-  text-align: left;
-  height: 200px;
-  width: 320px;
+  padding:10px;
+  padding-top: 0;
+  text-align: right;
+  height: 150px;
+  width: 960px;
   overflow: visible;
   position: fixed;
   top: 0px;
+  display: inline-block;
+  padding-bottom: 0;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "h1" "nav" ;
   z-index: 20;
 }
 
+h1 {
+  grid-area: h1;
+  font-size: 54px;
+  width: 350px;
+}
+
 nav {
+    grid-area: nav;
     height: 200px;
     padding: 5px;
-    width: 600px;
-    z-index: 10;
-    position:fixed;
-    top: 0px;
-    left: 415px;
+    padding-left: 40px;
+    position: fixed;
+    top: 15px;
+    overflow: auto;
+    display: inline-block;
   }
 
   main {
@@ -96,15 +111,18 @@ figcaption {
 
 #navlist {
     background-color: rgb(55,79,81);
-    padding: 5px;
-    width: 600px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    border: none;
+    padding: 15px;
+    width: 450px;
+    font-size: 20px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: right;
-    overflow: visible;
+    justify-content: space-around;
+    overflow:auto;
     position: fixed;
     }
 
