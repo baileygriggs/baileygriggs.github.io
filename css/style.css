@@ -97,10 +97,10 @@ figcaption {
 #navlist {
     background-color: rgb(55,79,81);
     padding: 5px;
-    width: 400px;
+    width: 600px;
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: right;
