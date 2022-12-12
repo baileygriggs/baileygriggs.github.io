@@ -121,12 +121,13 @@ footer p {
 
 #navlist {
     background-color: rgb(55,79,81);
+    font-size: 20px;
+    text-decoration: underline;
     line-height: 2;
     letter-spacing: 1.5px;
     border: none;
     padding: 15px;
     width: 450px;
-    font-size: 20px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -149,7 +150,6 @@ footer p {
   margin-left: 70px;
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 #chels-gallery {
