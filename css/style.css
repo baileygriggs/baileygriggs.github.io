@@ -53,6 +53,13 @@ p {
   margin-bottom: 5px;
 }
 
+main {
+  max-width: 960px;
+  height: auto;
+  position: relative;
+  min-width: 900px;
+  }
+
 header {
   color: rgb(55,79,81);
   background-color: rgb(193,196,175);
@@ -93,13 +100,6 @@ nav {
     top: 15px;
     overflow: auto;
     display: inline-block;
-  }
-
-  main {
-    max-width: 960px;
-    height: auto;
-    position: relative;
-    min-width: 900px;
   }
 
 figcaption {
@@ -190,8 +190,6 @@ footer p {
   grid-row: 10;
 }
 
-
-/*Product Images*/
 #product-gallery {
   margin-left: 70px;
   min-width: 800px;
@@ -262,7 +260,6 @@ footer p {
     grid-row: 21;
   }
 
-/*Personal Images*/
 #digital-gallery {
   margin-left: 70px;
   min-width: 800px;
@@ -377,11 +374,6 @@ footer p {
   grid-column: 14 / 20;
   grid-row: 9;
 }
-
-
-
-
-/*VIDEO GALLERY*/
 
 #video-gallery {
     max-width: 800px;
