@@ -145,7 +145,8 @@ footer p {
 
 #introduction p {
   text-indent: 40px;
-  max-width:800px;
+  max-width:700px;
+  margin-left: 70px;
   padding-left: 50px;
   padding-right: 50px;
 
